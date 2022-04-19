@@ -6,7 +6,8 @@
   "scripts": {
     "start": "tsnd --transpile-only --respawn --ignore-watch node_modules src/server.ts",
     "prepare": "husky install",
-    "test": "node index.js"
+    "test": "node index.js",
+    "test:unit": "node index.js"
   },
   "dependencies": {
     "express": "^4.17.3",
